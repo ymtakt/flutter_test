@@ -6,6 +6,10 @@ void main() {
     final freezedClass1 = FreezedClass(name: 'John', age: 30);
     final freezedClass2 = FreezedClass(name: 'John', age: 30);
 
+    final freezedClass3 = freezedClass2;
+
     expect(freezedClass1 == freezedClass2, true);
+    expect(identical(freezedClass1, freezedClass2), false);
+    expect(identical(freezedClass2, freezedClass3), isTrue);
   });
 }

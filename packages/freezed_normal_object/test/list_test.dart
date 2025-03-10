@@ -4,6 +4,8 @@ void main() {
   test('Two lists with same values are not equal using ==', () {
     final list1 = [1, 2, 3];
     final list2 = [1, 2, 3];
+    print(list1.hashCode);
+    print(list2.hashCode);
 
     expect(list1 == list2, false);
   });
@@ -11,6 +13,8 @@ void main() {
   test('Two const lists with same values are equal using ==', () {
     const list1 = [1, 2, 3];
     const list2 = [1, 2, 3];
+    print(list1.hashCode);
+    print(list2.hashCode);
 
     expect(list1 == list2, true);
   });
