@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:freezed_normal_object/normal_class.dart';
+import 'package:freezed_normal_object/src/normal_class.dart';
 
 void main() {
   test('NormalClass should create an instance with given values', () {
