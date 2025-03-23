@@ -1,0 +1,66 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "dart_flutter_practice",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dart_flutter_practice (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dart_flutter_practice (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "freezed_normal_object",
+            "cwd": "packages/freezed_normal_object",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "freezed_normal_object (profile mode)",
+            "cwd": "packages/freezed_normal_object",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "freezed_normal_object (release mode)",
+            "cwd": "packages/freezed_normal_object",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "my_lints",
+            "cwd": "packages/my_lints",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "my_lints (profile mode)",
+            "cwd": "packages/my_lints",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "my_lints (release mode)",
+            "cwd": "packages/my_lints",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

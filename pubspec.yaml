@@ -13,11 +13,18 @@ workspace:
 dependencies:
   flutter:
     sdk: flutter
+  hooks_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  freezed_annotation: ^3.0.0 # freezedのアノテーション
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  freezed: ^3.0.3  # freezedのコード生成
+  build_runner: ^2.4.14  # コード生成のために必要
+  json_serializable: ^6.9.4  # JSONシリアライズ用（freezedでよく使用）
+  riverpod_generator: ^2.6.5
 
 flutter:
   uses-material-design: true
