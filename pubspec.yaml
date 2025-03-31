@@ -15,6 +15,7 @@ dependencies:
     sdk: flutter
   hooks_riverpod: ^2.6.1
   riverpod_annotation: ^2.6.1
+  flutter_hooks: ^0.21.2
   freezed_annotation: ^3.0.0 # freezedのアノテーション
 
 dev_dependencies:
