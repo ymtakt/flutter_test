@@ -1,4 +1,6 @@
 import 'package:dart_flutter_practice/async_value/list_widget.dart';
+import 'package:dart_flutter_practice/provider_cache/cache_page.dart';
+import 'package:dart_flutter_practice/provider_cache/stream_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -18,7 +20,14 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         // body: ListWidget(),
-        body: AsyncValueStateChecker(),
+        // AsyncValueStateを確認するための画面
+        // body: AsyncValueStateChecker(),
+
+        // StreamWidgetを確認するための画面
+        // body: StreamWidgetPage(),
+
+        // CacheExamplePageを確認するための画面
+        body: CacheExamplePage(),
       ),
     );
   }

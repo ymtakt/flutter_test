@@ -6,7 +6,7 @@ part of 'list_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$fetchArticlesHash() => r'6d7e7524f4193b060d04e1111330cc9dba7c1335';
+String _$fetchArticlesHash() => r'6650983f13c4146321d8ae40e712df96e565f7dc';
 
 /// See also [fetchArticles].
 @ProviderFor(fetchArticles)
@@ -26,7 +26,7 @@ final fetchArticlesProvider =
 // ignore: unused_element
 typedef FetchArticlesRef = AutoDisposeFutureProviderRef<List<Articles>>;
 String _$fetchArticlesWithErrorHash() =>
-    r'61ebb7e1cd86cb30630fff0268888f1775d82158';
+    r'ee63a27e5bd83818f063a31c27e73d37662ca605';
 
 /// See also [fetchArticlesWithError].
 @ProviderFor(fetchArticlesWithError)
@@ -47,7 +47,7 @@ final fetchArticlesWithErrorProvider =
 typedef FetchArticlesWithErrorRef =
     AutoDisposeFutureProviderRef<List<Articles>>;
 String _$fetchArticlesWithDependencyHash() =>
-    r'2214cabbc91e0e111b22ecc7ada0697bf83172a3';
+    r'8c96536990e462525966502a8288a36cbc5be71f';
 
 /// See also [fetchArticlesWithDependency].
 @ProviderFor(fetchArticlesWithDependency)
