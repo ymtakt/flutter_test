@@ -69,6 +69,7 @@ void main() {
       });
 
       // readは通知を発生させない
+      // ignore: unused_local_variable
       final value = container.read(counterProvider);
       expect(buildCount, 0);
 

@@ -7,6 +7,7 @@ class SearchWidget extends HookConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // ignore: unused_local_variable
     final text = useTextEditingController();
 
     return const Scaffold(body: Center(child: Text('SearchWidget')));
